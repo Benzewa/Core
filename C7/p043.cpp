@@ -7,3 +7,25 @@
 #include <cstdlib>
 #include <string>
 #include <cctype>
+
+void ReadStr(std::string &Str);
+void UpperCase(std::string Str);
+void LowerCase(std::string Str);
+
+int main()
+{
+    std::string Str = "Moutaz";
+    ReadStr(Str);
+    std::cout << Str << "\n";
+}
+void ReadStr(std::string &Str)
+{
+    std::cout << "Enter String:\n";
+    getline(std::cin, Str);
+}
+void UpperCase(std::string &Str)
+{
+}
+void LowerCase(std::string &Str)
+{
+}

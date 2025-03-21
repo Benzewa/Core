@@ -1,6 +1,5 @@
 // vid 27
-// program that Reads a Character if its small convert to capital
-// if its capital convert to small
+// program that Reads a Character if its small convert to capital if its capital convert to small
 
 #include <iostream>
 #include <ctime>

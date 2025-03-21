@@ -16,7 +16,6 @@ int main()
 {
     std::string String;
     ReadString(String);
-    std::cout << String << "\n";
     InvertStr(String);
     std::cout << String << "\n";
 }
@@ -28,5 +27,5 @@ void ReadString(std::string &Str)
 void InvertStr(std::string &Str)
 {
     for (int i = 0; i < Str.length(); i++)
-        isupper(Str[i]) ? tolower(Str[i]) : toupper(Str[i]);
+        Str[i] = (isupper(Str[i]) ? tolower(Str[i]) : toupper(Str[i]));
 }

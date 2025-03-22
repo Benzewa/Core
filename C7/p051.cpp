@@ -7,4 +7,5 @@ int main()
 {
     std::cout << __cplusplus << "\n";
     std::cout << "Hello World\n";
+    std::cout << "Hello World\n";
 }
